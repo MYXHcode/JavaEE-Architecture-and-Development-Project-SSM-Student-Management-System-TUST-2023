@@ -1,0 +1,36 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="1681" name="Style Sheets" />
+        <language minSize="49" name="Java" />
+        <language minSize="27215" name="JavaScript" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="JavadocDeclaration" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ADDITIONAL_TAGS" value="date" />
+    </inspection_tool>
+    <inspection_tool class="MavenPackageUpdate" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="excludeList">
+        <list>
+          <option value="org.springframework:spring-webmvc" />
+          <option value="org.springframework:spring-jdbc" />
+          <option value="org.springframework:spring-aspects" />
+          <option value="org.springframework:spring-test" />
+          <option value="org.mybatis:mybatis" />
+          <option value="org.mybatis:mybatis-spring" />
+          <option value="org.mybatis.generator:mybatis-generator-core" />
+          <option value="org.junit.jupiter:junit-jupiter-api" />
+          <option value="org.junit.jupiter:junit-jupiter-engine" />
+          <option value="junit:junit" />
+          <option value="com.fasterxml.jackson.core:jackson-databind" />
+          <option value="org.hibernate:hibernate-validator" />
+          <option value="com.github.pagehelper:pagehelper" />
+          <option value="com.alibaba:druid" />
+          <option value="mysql:mysql-connector-java" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
